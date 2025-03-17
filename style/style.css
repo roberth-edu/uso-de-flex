@@ -1,0 +1,19 @@
+body {
+    background-color: blanchedalmond;
+}
+nav {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(170, 238, 238);
+}
+nav a {
+    font-size: 19px;
+    text-decoration: none;
+    
+}
+nav img {
+    width: 100px;
+    mix-blend-mode: multiply;
+}
