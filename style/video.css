@@ -1,12 +1,15 @@
 body {
-    background-color: #B09E99;
+    background-color: #D2D6EF;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
 }
 nav {
     display: flex;
     
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    background-color: #FEE9E1;
+    background-color: #95B2B0;
 }
 nav a {
     font-size: 19px;
@@ -19,10 +22,10 @@ nav img {
 }
 .titulo {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 .card {
-    background-color: #e3fffe;
+    background-color: #647AA3;
     font-family: "Big Shoulders Inline", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
@@ -34,14 +37,58 @@ nav img {
     box-shadow: 0px 5px 10px;
 
 }
+.card p {
+    margin: 10px;
+    padding: 12px;
+}
+.card h2 {
+    margin: 30px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
 .card img {
     width: 300px;
     border-radius: 20px;
     height: 200px;
+    
 }
+
+
+.card button{
+    margin: 25px;
+    text-align: center;
+}
+
+/*.card button {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: end;
+}*/
+.card a {
+    color: black;
+    text-decoration: none;
+}
+
 .videojuegos {
     display: flex;  
+    justify-content: center;
+
+
 }
 .videojuegos :hover {
     transform: scale(1.10);
 }
+footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    background-color: darkgray;
+
+}
+
